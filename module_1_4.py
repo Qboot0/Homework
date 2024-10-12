@@ -1,6 +1,3 @@
-from dataclasses import replace
-from time import perf_counter
-
 my_string = input("введите текст:")
 print(len(my_string ))
 print(my_string .upper())
