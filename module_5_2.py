@@ -9,8 +9,8 @@ class House:
         title = str(f"Название:{self.name},количество этажей:{self.number_of_floors}")
         return title
 
-hightower = House('ЖК Эльбрус', 10)
-warehouse = House('ЖК Фкация', 20)
+h1 = House('ЖК Эльбрус', 10)
+h2 = House('ЖК Фкация', 20)
 
 print(h1)
 print(h2)
