@@ -12,8 +12,8 @@ class House:
 hightower = House('ЖК Эльбрус', 10)
 warehouse = House('ЖК Фкация', 20)
 
-print(hightower)
-print(warehouse)
+print(h1)
+print(h2)
 
-print(len(hightower))
-print(len(warehouse))
+print(len(h1))
+print(len(h2))
