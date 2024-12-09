@@ -11,6 +11,8 @@ def calculate_structure_sum(data_structure):
             total_sum += len(element)
         elif isinstance(element, int):
             total_sum += element
+        elif isinstance(element, set):  # Добавлено условие для обработки множеств
+            total_sum += calculate_structure_sum(element)
     return total_sum
 
 data_structure = [
