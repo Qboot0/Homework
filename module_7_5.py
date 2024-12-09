@@ -1,10 +1,7 @@
 import os
 import time
 
-
-
-directory = r'C:\Users\qboot\PycharmProjects\HomeWork\second'  # Замените на ваш путь
-
+directory = '.'  
 
 for root, dirs, files in os.walk(directory):
     for file in files:
