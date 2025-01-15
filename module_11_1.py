@@ -11,7 +11,7 @@ print("Среднее значение Column3:", average_value)
 
 #matplotlib
 import matplotlib
-matplotlib.use('Agg')  # Используйте бэкенд без GUI
+matplotlib.use('Agg')  
 
 import matplotlib.pyplot as plt
 
@@ -25,4 +25,4 @@ plt.title('Пример линейного графика')
 plt.xlabel('X-axis')
 plt.ylabel('Y-axis')
 plt.grid()
-plt.savefig('plot.png')  # Сохранение графика
+plt.savefig('plot.png') 
